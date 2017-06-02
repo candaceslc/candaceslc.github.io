@@ -1,16 +1,30 @@
 body {
     background-color: black;
     text-align: center;
+    font-family: Verdana;
+    color: #FFFFFF;
     }
 
-.header h1 {
-    font-family: Verdana;
+h1 {
     font-weight: normal;
     font-size: 50px;
-    color: #FFFFFF;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 42px;
 }
 
 a {
     color: Aquamarine;
     font-size: 16px;
+}
+
+p {
+    font-size: 21px;
+    color: Gray;
+}
+
+.footer {
+    text-align: right;
 }
