@@ -45,6 +45,10 @@ a {
   color: black;
 }
 
+.projects {
+  width: 70% auto;
+}
+
 .container {
   text-align: center;
   display: inline-block;
