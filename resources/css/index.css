@@ -1,5 +1,5 @@
 body {
-  font-family:Helvetica;
+  font-family: sans-serif;
   text-align: center;
 }
 
@@ -63,14 +63,15 @@ p {
 .container {
   text-align: center;
   display: inline-block;
-  padding: 50px;
-  border: 2px solid black;
+  padding: 70px;
+  border: 3px solid none;
   margin: 30px;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/000/101/241/non_2x/free-abstract-background-4-vector.jpg');
 }
 
 .container a {
   text-decoration: none;
-  color: black;
+  color: darkcyan;
   font-weight: bold;
 }
 
@@ -79,5 +80,5 @@ p {
 }
 
 #dasmoto {
-  background-image: url('https://static.vecteezy.com/system/resources/previews/000/101/241/non_2x/free-abstract-background-4-vector.jpg');
+
 }
