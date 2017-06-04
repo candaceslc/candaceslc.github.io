@@ -5,10 +5,11 @@ body {
 h1{
   text-align: center;
   font-size: 90px;
+  color: lightseagreen;
   font-weight:bolder;
   margin: 0 auto;
-  border-top: 3px solid lightseagreen;
-  border-bottom: 3px solid lightseagreen;
+  border-top: 3px solid lightgrey;
+  border-bottom: 3px solid lightgrey;
   padding: 10px;
   width: 100%;
 }
@@ -23,8 +24,8 @@ nav li {
   margin: 10px;
   padding: 5px 10px;
   color: black;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  border-top: 1px dotted grey;
+  border-bottom: 1px dotted grey;
 }
 
 nav a {
