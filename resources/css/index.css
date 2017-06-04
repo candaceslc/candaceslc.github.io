@@ -1,14 +1,37 @@
-h1, h2, h3, p {
+body {
   font-family:Helvetica;
 }
 
 h1{
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
   text-align: center;
-  font-weight: bold;
+  weight: bold;
   font-size: 100px;
-  color: khaki;
+  color: darkcyan;
+  margin: 0;
+  border-top: 3px solid lightgrey;
+  border-bottom: 3px solid lightgrey;
+  padding: 10px;
 }
+
+nav {
+  text-align: center;
+}
+
+nav li {
+  text-align: center;
+  display: inline;
+  margin: 10px;
+  padding: 5px 10px;
+  color: black;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+nav a {
+  text-decoration: none;
+  color: grey;
+}
+
 
 h2{
   color: white;
