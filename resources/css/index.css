@@ -32,27 +32,3 @@ nav a {
   text-decoration: none;
   color: grey;
 }
-
-
-h2{
-  color: white;
-  font-size: 32px;
-  font-weight: bold;
-}
-
-.price {
-  font-weight: bold;
-  color: blue;
-}
-
-#brushes h2 {
-  background-color: mediumspringgreen;
-}
-
-#frames h2{
-  background-color: lightcoral;
-}
-
-#paint h2{
-  background-color: skyblue;
-}
