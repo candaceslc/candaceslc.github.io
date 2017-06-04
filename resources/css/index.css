@@ -8,22 +8,24 @@ h1 {
   font-size: 80px;
   color: lightseagreen;
   font-weight:bolder;
-  margin: 0 auto;
-  border-top: 3px solid lightgrey;
+  margin: 0px auto;
   border-bottom: 3px solid lightgrey;
   padding: 10px;
   width: 100%;
   background-color: white;
   position: fixed;
   z-index: 10;
+  top: 0px;
 }
 
 nav {
   position: fixed;
   z-index: 10;
-  top:130px;
+  top:115px;
   width: 100%;
   background: white;
+  white-space: nowrap;
+  margin-top: 0px;
 }
 
 nav li {
@@ -43,7 +45,7 @@ nav a {
 
 .content {
 position: relative;
-padding-top: 180px;
+padding-top: 170px;
 width: 100%;
 }
 
