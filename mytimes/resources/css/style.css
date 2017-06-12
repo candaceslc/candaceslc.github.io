@@ -1,14 +1,23 @@
 body {
-    font-family: Helvetica;
+    font-family: Verdana;
+    font-size: 12px;
 }
 
 .header {
     display: inline-flex;
+    width: 100%;
     align-items: center;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    font-weight: bold;
 }
 
-.header h1{
-    color: MediumAquamarine;
+.header img {
+    margin: 12px;
+}
+
+.header span {
+   color: MediumAquamarine;
 }
 
 .header nav {
