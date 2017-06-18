@@ -1,51 +1,58 @@
 body {
-  font-family: sans-serif;
+  font-family: Helvetica;
   text-align: center;
 }
 
-h1 {
-  text-align: center;
-  font-size: 80px;
-  color: lightseagreen;
-  font-weight:bolder;
-  margin: 0px auto;
-  border-bottom: 3px solid lightgrey;
-  padding: 10px;
-  width: 100%;
-  background-color: white;
+header {
+  display: flex;
+  flex-shrink: .5;
   position: fixed;
+  left: 0;
+  top: 0;
+  overflow: auto;
   z-index: 10;
-  top: 0px;
+  background-color: white;
+  margin: auto;
+  width: 100%;
+  border: 1px solid lightgrey;
+  opacity: 1;
+  height: 100px;
+}
+
+header img {
+  position: fixed;
+  background-color: white;
+  left: 10px;
+  max-height: 100%;
 }
 
 nav {
+  display: block;
   position: fixed;
-  z-index: 10;
-  top:115px;
-  width: 100%;
-  background: white;
-  white-space: nowrap;
-  margin-top: 0px;
+  right: 10px;
+  justify-content: space-around;
+  top: 40px;
 }
 
-nav li {
+nav a {
   text-align: center;
   display: inline;
   margin: 10px;
   padding: 5px 10px;
-  color: black;
+  color: grey;
   border-top: 1px dotted grey;
   border-bottom: 1px dotted grey;
-}
-
-nav a {
-  color: grey;
   text-decoration: none;
 }
 
+a strong {
+  color: black;
+}
+
 .content {
+display: block;
 position: relative;
-padding-top: 170px;
+top: 100px;
 width: 100%;
 }
 
@@ -56,22 +63,25 @@ p {
   text-align: justify;
 }
 
+/* Projects Page */
 .projects {
   width: 70% auto;
 }
 
 .container {
   text-align: center;
-  display: inline-block;
-  padding: 70px;
-  border: 3px solid none;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 60px;
   margin: 30px;
-  background-image: url('https://static.vecteezy.com/system/resources/previews/000/101/241/non_2x/free-abstract-background-4-vector.jpg');
+  /*background-image: url('http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/01/geometric-tessellation-with-rhombus-pattern-coloring-pages.png');*/
+  /*background-image: url('https://static.vecteezy.com/system/resources/previews/000/101/241/non_2x/free-abstract-background-4-vector.jpg');*/
 }
 
 .container a {
   text-decoration: none;
-  color: darkcyan;
+  color: white;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -80,5 +90,16 @@ p {
 }
 
 #dasmoto {
+  background-image: url('https://static.pexels.com/photos/147469/pexels-photo-147469.jpeg');
+  background-size: cover;
+}
 
+#excursion {
+  background-image: url('http://www.thephotoargus.com/wp-content/uploads/2016/04/BW6.jpg');
+  background-size: cover;
+}
+
+#broadway {
+  background-image: url('https://static.pexels.com/photos/28452/pexels-photo-28452.jpg');
+  background-size: cover;
 }
