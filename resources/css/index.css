@@ -67,6 +67,10 @@ p a {
   text-decoration: none;
 }
 
+.follow-me a {
+  margin: 20px;
+}
+
 /* Projects Page */
 .projects {
   width: 80%;
