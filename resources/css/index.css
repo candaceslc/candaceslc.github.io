@@ -69,7 +69,8 @@ p a {
 
 /* Projects Page */
 .projects {
-  width: 70% auto;
+  width: 80%;
+  margin: auto;
 }
 
 .container {
