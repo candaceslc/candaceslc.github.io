@@ -5,6 +5,18 @@ body {
   font-size: 22px;
   opacity: 0.9;
   text-align: center;
+  margin: auto;
+}
+
+h2, h3, h4 {
+  margin: 0px;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 header {
@@ -35,10 +47,8 @@ a {
   margin: 10px;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.content {
+  padding-top: 70px;
 }
 
 #mission {
@@ -54,10 +64,28 @@ a {
   width: 100%;
 }
 
-.teahead {
-  display: inline-block;
+#featured {
+  width: 1000px;
+  margin: auto;
+  padding: 50px;
+}
+
+#featured h2 {
+  display:block;
 }
 
 .tea {
-  
+  padding: 10px;
+}
+
+.teacontent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
 }
