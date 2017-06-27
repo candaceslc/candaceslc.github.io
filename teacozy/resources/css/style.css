@@ -51,6 +51,9 @@ a {
   padding-top: 70px;
 }
 
+
+/* Mission Section */
+
 #mission {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
@@ -63,6 +66,9 @@ a {
   margin: auto;
   width: 100%;
 }
+
+
+/* Featured Teas */
 
 #featured {
   width: 1000px;
@@ -88,4 +94,33 @@ a {
 .tea img {
   height: 200px;
   width: 300px;
+}
+
+
+/* Locations Section */
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.locale {
+  width: 300px;
+  background-color: black;
+  padding: 10px;
+  margin: 15px 20px;
+  opacity: 1;
+}
+
+.contact {
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
 }
