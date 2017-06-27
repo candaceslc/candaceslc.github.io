@@ -89,8 +89,7 @@ p a {
   flex-direction: column;
   padding: 60px;
   margin: 30px;
-  /*background-image: url('http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2015/01/geometric-tessellation-with-rhombus-pattern-coloring-pages.png');*/
-  /*background-image: url('https://static.vecteezy.com/system/resources/previews/000/101/241/non_2x/free-abstract-background-4-vector.jpg');*/
+  width: 150px;;
 }
 
 .container a {
@@ -105,16 +104,23 @@ p a {
 }
 
 #dasmoto {
-  background-image: url('https://static.pexels.com/photos/147469/pexels-photo-147469.jpeg');
+  background-image: url('../images/pexels147469.jpeg');
+  background-position: center;
   background-size: cover;
 }
 
 #excursion {
-  background-image: url('http://www.thephotoargus.com/wp-content/uploads/2016/04/BW6.jpg');
+  background-image: url('../images/BW6.jpg');
   background-size: cover;
 }
 
 #broadway {
-  background-image: url('https://static.pexels.com/photos/28452/pexels-photo-28452.jpg');
+  background-image: url('../images/pexels28452.jpg');
+  background-size: cover;
+}
+
+#teacozy {
+  background-image: url("../images/TeaCup.jpg");
+  background-position: center;
   background-size: cover;
 }
