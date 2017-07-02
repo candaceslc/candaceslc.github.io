@@ -49,6 +49,8 @@ a {
 
 .content {
   padding-top: 70px;
+  width: 1200px;
+  margin: auto;
 }
 
 
@@ -57,8 +59,6 @@ a {
 #mission {
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
-  width: 1200px;
-  margin: auto;
 }
 
 #mission .missionstatement {
@@ -74,10 +74,6 @@ a {
   width: 1000px;
   margin: auto;
   padding: 50px;
-}
-
-#featured h2 {
-  display:block;
 }
 
 .tea {
@@ -106,6 +102,10 @@ a {
   height: 500px;
   justify-content: center;
   flex-direction: column;
+}
+
+.flex-container locations {
+  display: block;
 }
 
 .locale {
