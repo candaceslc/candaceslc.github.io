@@ -119,6 +119,11 @@ p a {
   background-size: cover;
 }
 
+#mytimes {
+  background-image: url("../images/photography-indie-art.jpg");
+  background-size: cover;
+}
+
 #teacozy {
   background-image: url("../images/TeaCup.jpg");
   background-position: center;
