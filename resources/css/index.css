@@ -134,6 +134,7 @@ p a {
 
 #teacozy a {
   background-image: url("../images/TeaCup.jpg");
+  opacity: .9;
 }
 
 #secretagent a {
