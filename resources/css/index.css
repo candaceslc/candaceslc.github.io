@@ -1,3 +1,7 @@
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: Helvetica;
   color: #4d4d4d;
@@ -84,48 +88,55 @@ p a {
 }
 
 .container {
-  text-align: center;
   display: inline-flex;
-  flex-direction: column;
-  padding: 60px;
-  margin: 30px;
-  width: 150px;;
+  margin: 0.5rem;
 }
 
 .container a {
+  display: flex;
   text-decoration: none;
   color: white;
   font-size: 30px;
   font-weight: bold;
+  height: 12rem;
+  width: 16rem;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
 }
 
 .container:hover {
   opacity: .5;
 }
 
-#dasmoto {
+
+/* Project image backgrounds */
+
+#dasmoto a {
   background-image: url('../images/pexels147469.jpeg');
-  background-position: center;
-  background-size: cover;
 }
 
-#excursion {
+#excursion a {
   background-image: url('../images/BW6.jpg');
-  background-size: cover;
+  opacity: .9;
 }
 
-#broadway {
+#broadway a {
   background-image: url('../images/pexels28452.jpg');
-  background-size: cover;
+  opacity: .9;
 }
 
-#mytimes {
-  background-image: url("../images/photography-indie-art.jpg");
-  background-size: cover;
+#mytimes a {
+  background-image: url("../images/images.jpg");
+  opacity: .9;
 }
 
-#teacozy {
+#teacozy a {
   background-image: url("../images/TeaCup.jpg");
-  background-position: center;
-  background-size: cover;
+}
+
+#secretagent a {
+  background-image: url("../images/1.jpg");
+  opacity: .8;
 }
