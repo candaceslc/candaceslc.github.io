@@ -39,8 +39,8 @@ body {
   background-image: url(".././images/moto.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25rem;
   padding-top: 9rem;
+  padding-bottom: 6rem;
 }
 
 .bannercontent {
@@ -52,11 +52,12 @@ body {
 
 .bannercontent h4 {
   font-size: 1rem;
+  margin: 0;
 }
 
 .bannercontent h1 {
   font-size: 2rem;
-  margin: 0.25rem 0;
+  margin-top: 0.25rem;
 }
 
 
@@ -192,6 +193,7 @@ footer {
   .banner {
     height: 5rem;
     padding-top: 10rem;
+    padding-bottom: 0.25rem;
   }
 
   .bannercontent {
@@ -201,12 +203,10 @@ footer {
 
   .bannercontent h4 {
     font-size: 0.77rem;
-    margin: 0;
   }
 
   .bannercontent h1 {
     font-size: 1rem;
-    margin-top: 0.25rem;
   }
 
 /* PRODUCTS */
