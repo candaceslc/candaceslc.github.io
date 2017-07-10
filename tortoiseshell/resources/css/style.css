@@ -1,16 +1,16 @@
 html {
+  font-family: Helvetica;
   font-size: 18px;
-  line-height: 1.4;
 }
 
 body {
-  font-family: Helvetica;
+  line-height: 1.4;
   margin: 0;
 }
 
 .container {
   margin: auto;
-  width: 960px;
+  max-width: 960px;
 }
 
 
@@ -21,11 +21,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  display: flex;
-  justify-content: center;
   height: 30rem;
-  width: 100%;
-  margin: auto;
+  padding-top: 1rem;
 }
 
 
@@ -33,14 +30,15 @@ body {
 
 .header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-}
-
-.header {
-  padding: 1rem 2rem;
+  padding: 0.75rem 0;
   background-color: cadetblue;
   color: white;
   font-size: 1rem;
+  height: 3rem;
+  width: 100%;
+  margin: auto;
 }
 
 .logo {
@@ -50,33 +48,33 @@ body {
 
 .logo img {
   height: 1.5rem;
-  padding-right: 1rem;
+  margin: 0 1rem 0 2rem;
 }
 
-nav ul{
+nav {
   display: flex;
-  list-style: none;
+  align-items: center;
 }
 
 nav li {
-  padding-right: 2rem;
+  display: inline-flex;
+  flex-wrap: nowrap;
+  padding: 0 1rem;
 }
 
 
 /* Headline */
 
 .headline {
-  display: flex;
-  justify-content: flex-end;
+  display: block;
+  float: right;
+  text-align: center;
   margin: 10rem -2rem 0 0;
-}
-
-.tag {
+  padding: 1.5rem 5rem;
   background-color: white;
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
-  padding: 1.5rem 5rem;
 }
 
 
@@ -85,7 +83,7 @@ nav li {
 .services {
   display: flex;
   justify-content: center;
-  margin: 5rem;
+  margin: 3rem;
   text-align: center;
 }
 
@@ -94,7 +92,8 @@ nav li {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 0 3rem;
+  margin: 0 3rem;
+  width: 4rem;
 }
 
 .services img {
@@ -134,10 +133,148 @@ footer {
   display: flex;
   align-items: center;
   background-color: azure;
+  height: 9.5rem;
   width: 100%;
+  padding: 4rem;
 }
 
 footer img {
   height: 1.5rem;
-  padding: 4rem 1rem 4rem 4rem;
+}
+
+footer span {
+  padding-left: 1rem;
+}
+
+/* Media Query > 1024px */
+
+@media only screen and (min-width: 1024px) {
+  .smallnav {
+    display: none;
+  }
+}
+
+/* Media Query < 1024px */
+
+@media only screen and (max-width: 1024px) {
+  .smallnav {
+    display: none;
+  }
+
+  .container {
+    margin: auto;
+    max-width: 960px;
+  }
+
+
+  /* Banner */
+
+  .banner {
+    padding: 0;
+    height: 22rem;
+    width: 100%;
+  }
+
+
+  /* Headline */
+
+  .headline {
+    font-size: 1.33rem;
+    margin: 5rem 2rem 0 0;
+    padding: 1rem 4rem;
+  }
+
+
+/* Media Query < 650px */
+
+@media only screen and (max-width: 700px) {
+  .mainnav {
+    display: none;
+  }
+
+  .smallnav {
+    display: flex;
+  }
+
+  .logo span {
+    display: none;
+  }
+
+  .banner {
+    background-position: 40%;
+  }
+
+
+/* Media Query < 500px */
+
+@media only screen and (max-width: 500px) {
+
+  .banner {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+
+  /* Headline */
+
+  .headline {
+    float: none;
+    margin: 8rem 0;
+    padding: 0.75rem 0;
+    font-size: 1rem;
+  }
+
+
+  /* Services */
+
+  .services {
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 3rem 0;
+    font-size: 0.77rem;
+  }
+
+  .offering {
+    margin: 0.77rem 0;
+  }
+
+
+  /* Information */
+
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5rem;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .info-description {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.77rem;
+  }
+
+  .philosophy {
+    margin: 0 0 3rem 0;
+  }
+
+  /* Footer */
+
+  footer {
+    justify-content: center;
+    padding: 0;
+  }
+
+  footer img {
+    padding: 4rem 0;
+  }
+
+  footer span {
+    display: none;
+  }
+
 }
