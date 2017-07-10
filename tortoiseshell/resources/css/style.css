@@ -185,7 +185,7 @@ footer span {
   }
 
 
-/* Media Query < 650px */
+/* Media Query < 700px */
 
 @media only screen and (max-width: 700px) {
   .mainnav {
@@ -203,7 +203,7 @@ footer span {
   .banner {
     background-position: 40%;
   }
-
+}
 
 /* Media Query < 500px */
 
