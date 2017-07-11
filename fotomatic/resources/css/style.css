@@ -5,101 +5,29 @@ html {
   font-size: 16px;
 }
 
-/* HEADER */
-
-header {
-  position: fixed;
-  color: #4A4A4A;
-  height: 85px;
-  z-index: 5;
-}
-
-header .content {
-  font-family: "Roboto";
-  font-size: 16px;
-  padding: 0 30px;
-}
-
-.logo {
-  color: #4A4A4A;
-  font-size: 28px;
-}
-
-.nav {
-  line-height: 1.6;
-}
-
-
-/* MAIN CONTENT */
-
-.main-content {
-  background-image: url(".././images/banner-landingpage.jpg");
-  background-repeat: no-repeat;
-  position: relative;
-  top: 5.3125rem; /* To offset for fixed header. */
-}
-
-#sign-up-section {
-  position: relative;
-  padding: 170px 0 170px 100px;
-}
-
-
-/* FEATURE SECTION */
-
-.feature-section {
-  display: flex;
-  margin: auto;
-  padding: 0;
-}
-
-.center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  height: 635px;
-  width: auto;
-}
-
-.button {
-  border-radius: 4px;
-  background-color: #4a4a4a;
-  color: white;
-}
-
-.image-container {
-  overflow: hidden;
-}
-
-.image-container img {
-  display: block;
-}
-
-@media only screen and (max-width: 760px) {
-  .main-content {
-    top: 2.5625rem;
-  }
-}
 
 /* Header */
 
 header {
   position: fixed;
   width: 100%;
+  height: 85px;
+  z-index: 5;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
+  color: #4A4A4A;
 }
 
 header .content {
   display: flex;
-  align-items: center;
   padding: 1.875rem;
 }
 
 header .logo {
+  display: flex;
   flex: 1;
+  color: #4A4A4A;
+  font-size: 1.5rem;
 }
 
 header nav ul {
@@ -111,20 +39,200 @@ nav li {
 }
 
 nav a {
-  vertical-align: bottom;
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
 }
 
 header .icon {
-  width: 1rem;
+  width: 1.25rem;
   padding-left: .75rem;
+  vertical-align: middle;
 }
 
 header .mobile {
   display: none;
 }
+
+
+/* MAIN CONTENT */
+
+.banner {
+  background-image: url(".././images/banner-landingpage.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+  top: 5.3125rem; /* To offset for fixed header. */
+}
+
+
+/* Sign Up Section */
+
+#sign-up-section {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  height: 43.5rem;
+  padding: 170px 0 170px 100px;
+}
+
+#sign-up-cta {
+  padding: 2rem 5rem 3.5rem 5rem;
+  border: solid 1px #979797;
+  border-radius: 4px;
+  background-color: #9DC20A;
+}
+
+#sign-up-cta .content {
+  width: 25.625rem;
+  margin-top: 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.4;
+  color: white;
+}
+
+#sign-up-cta h2 {
+  font-size: 2.25rem;
+}
+
+#sign-up-cta h1 {
+  font-size: 3.125rem;
+}
+
+#sign-up-cta span strong {
+  font-weight: bold;
+}
+
+#sign-up-cta .cursive {
+  font-family: "Damion", cursive;
+}
+
+#sign-up-cta .striking {
+  font-family: "Rubik", sans-serif;
+  padding-bottom: .75rem;
+}
+
+#sign-up-cta .button {
+  margin-top: 1.625rem;
+  padding: 1.25rem 7.25rem;
+}
+
+.striking {
+  color: white;
+  font-size: 50px;
+  font-family: "Rubik";
+  line-height: 1.4;
+}
+
+.email {
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto";
+  line-height: 1.4;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+
+/* Features Section */
+
+#features-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 5%;
+  background-color: #f3f3f3;
+}
+
+.feature {
+  flex: 1;
+  padding: 2rem;
+  margin: 0px 1.25rem;
+  background-color: white;
+}
+
+.feature .image-container {
+  width: 90%;
+  height: 65%;
+  margin: 0 auto;
+}
+
+.feature h2 {
+  padding-bottom: .5rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.feature h3 {
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 300;
+  color: #4a4a4a;
+}
+
+
+/* FEATURE SECTION */
+
+
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+}
+
+/* Quotes Section */
+
+#quotes-section {
+  background-color: #f3f3f3;
+  padding: 5rem;
+}
+
+#quotes-section .quote {
+  padding-right: 1.875rem;
+  font-family: "Palatino", serif;
+  font-size: 1.875rem;
+  line-height: 1.1;
+  font-style: italic;
+  color: #4a4a4a;
+}
+
+#quotes-section .quote-citation {
+  height: 1.875rem;
+}
+
+/* Footer */
+
+footer {
+  background-color: #9b9b9b;
+  height: 3.875rem;
+  padding: 0 2rem;
+}
+
+footer .content {
+  color: white;
+  display: flex;
+  font-size: .75rem;
+}
+
+footer .copyright {
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 760px) {
+  .main-content {
+    top: 2.5625rem;
+  }
+}
+
+
 
 @media only screen and (max-width: 760px) {
   header .desktop {
@@ -157,57 +265,6 @@ header .mobile {
     line-height: 1.6;
     color: white;
   }
-}
-
-/* Sign Up Section */
-
-#sign-up-section {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  height: 43.5rem;
-}
-
-#sign-up-cta {
-  padding: 0 5rem 2.5rem 5rem;
-  border: solid 1px #979797;
-  border-radius: 4px;
-  background-color: #9dc20b;
-}
-
-#sign-up-cta .content {
-  width: 25.625rem;
-  margin-top: 2rem;
-  font-family: "Roboto", sans-serif;
-  font-size: 1.25rem;
-  line-height: 1.4;
-  color: white;
-}
-
-#sign-up-cta h1 {
-  font-size: 3.125rem;
-}
-
-#sign-up-cta h2 {
-  font-size: 2.25rem;
-}
-
-#sign-up-cta span strong {
-  font-weight: bold;
-}
-
-#sign-up-cta .cursive {
-  font-family: "Damion", cursive;
-}
-
-#sign-up-cta .striking {
-  font-family: "Rubik", sans-serif;
-  padding-bottom: .75rem;
-}
-
-#sign-up-cta .button {
-  margin-top: 1.625rem;
-  padding: 1.25rem 7.25rem;
 }
 
 @media only screen and (max-width: 760px) {
@@ -256,41 +313,6 @@ header .mobile {
   }
 }
 
-/* Features Section */
-
-#features-section {
-  display: flex;
-  justify-content: space-between;
-  padding: 4rem 5%;
-  background-color: #f3f3f3;
-}
-
-.feature {
-  flex: 1;
-  padding: 2rem;
-  margin: 0px 1.25rem;
-  background-color: white;
-}
-
-.feature .image-container {
-  width: 90%;
-  height: 65%;
-  margin: 0 auto;
-}
-
-.feature h2 {
-  padding-bottom: .5rem;
-  font-size: 2.25rem;
-  font-weight: bold;
-  color: #4a4a4a;
-}
-
-.feature h3 {
-  font-size: 1rem;
-  line-height: 1.2;
-  font-weight: 300;
-  color: #4a4a4a;
-}
 
 @media only screen and (max-width: 890px) {
   .feature h2 {
@@ -347,6 +369,7 @@ header .mobile {
   padding: 0 1%;
 }
 
+
 @media only screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
@@ -377,28 +400,6 @@ header .mobile {
   }
 }
 
-/* Quotes Section */
-
-#quotes-section {
-  background-color: #f3f3f3;
-}
-
-#quotes-section content {
-  padding: 5rem 0;
-}
-
-#quotes-section quote {
-  padding-right: 1.875rem;
-  font-family: "Palatino", serif;
-  font-size: 1.875rem;
-  line-height: 1.1;
-  font-style: italic;
-  color: #4a4a4a;
-}
-
-#quotes-section quote-citation {
-  height: 1.875rem;
-}
 
 @media only screen and (max-width: 760px) {
   #quotes-section content {
@@ -415,23 +416,6 @@ header .mobile {
     padding-top: 1rem;
     margin: auto;
   }
-}
-
-/* Footer */
-
-footer {
-  background-color: #9b9b9b;
-  padding: 1.5rem 2rem;
-}
-
-footer .content {
-  color: white;
-  display: flex;
-  font-size: .75rem;
-}
-
-footer .copyright {
-  flex-grow: 1;
 }
 
 @media only screen and (min-width: 760px) {
