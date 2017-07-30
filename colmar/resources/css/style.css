@@ -83,8 +83,8 @@ p {
 }
 
 .title {
-  display: block;
   text-align: center;
+  display: block;
   padding: 2rem 0;
 }
 
@@ -263,9 +263,6 @@ footer {
 }
 
 @media only screen and (max-width: 780px) {
-  html {
-    font-size: 12px;
-  }
 
 .web {
     display: none;
