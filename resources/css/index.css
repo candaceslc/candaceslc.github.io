@@ -96,6 +96,7 @@ p a {
   display: flex;
   text-decoration: none;
   color: white;
+  text-shadow: 2px 2px #000000;
   font-size: 30px;
   font-weight: bold;
   height: 12rem;
@@ -142,12 +143,12 @@ p a {
   opacity: .8;
 }
 
-#toirtoise a {
+#tortoise a {
   background-image: url("../images/tortoise.png");
-  opacity: .8;
+  opacity: .9;
 }
 
 #colmar a {
   background-image: url("../images/Higher-Education.jpg");
-  opacity: .8;
+  opacity: .9;
 }
