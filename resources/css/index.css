@@ -141,3 +141,13 @@ p a {
   background-image: url("../images/1.jpg");
   opacity: .8;
 }
+
+#toirtoise a {
+  background-image: url("../images/tortoise.png");
+  opacity: .8;
+}
+
+#colmar a {
+  background-image: url("../images/Higher-Education.jpg");
+  opacity: .8;
+}
