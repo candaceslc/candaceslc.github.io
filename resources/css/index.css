@@ -83,6 +83,9 @@ p a {
 
 /* Projects Page */
 .projects {
+  display: flex;
+  flex-flow: row-reverse wrap-reverse;
+  justify-content: center;
   width: 80%;
   margin: auto;
 }
