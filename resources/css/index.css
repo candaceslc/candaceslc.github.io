@@ -152,3 +152,8 @@ p a {
   background-image: url("../images/Higher-Education.jpg");
   opacity: .9;
 }
+
+#matchgame a {
+  background-image: url("../images/match.jpg");
+  opacity: .9;
+}
